@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+h2 {
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 200%;
+}
+
+html {
+    font-size: 62.5%; }
+    @media (min-width: 112.5em) {
+      html {
+        font-size: 75%; } }
+    @media (max-width: 75em) {
+      html {
+        font-size: 56.25%; } }
+    @media (max-width: 56.25em) {
+      html {
+        font-size: 50%; } }
+    @media (max-width: 37.5em) {
+      html {
+        font-size: 40%; } }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  line-height: 1.7;
+}
+        
+.container {
+  padding: 1rem;
+  text-align: center;
+  background-color: #55c57a;
+  margin: 5rem;
+  border: 1px solid black;
+  width: 50%;
+  height: 50rem;
+}
+
+.select {
+  padding-top: 3rem;
+  display: inline-block;
+  text-align: left;
+}
+
+.select1 {
+  text-align: left;
+}
+
+.excludeVal {
+  padding: 1rem;
+}
+
+.btn {
+  text-align: center;
+  padding: 1rem;
+  width: 8rem;
+  height: 4rem;
+  text-align: center;
+}
+
+.output {
+  font-weight: bold;
+}
